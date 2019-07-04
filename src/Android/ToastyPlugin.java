@@ -15,7 +15,7 @@ public class ToastyPlugin extends CordovaPlugin {
     final CallbackContext callbackContext) {
       // Verify that the user sent a 'show' action
       if (!action.equals("show")) {
-        callbackContext.error("\"" + action + "\" is not a recognized action.");
+        callbackContext.error("\"" + action + "\" is not a  recognized action.");
         return false;
       }
       String message;
